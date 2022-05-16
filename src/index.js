@@ -1,17 +1,70 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+function App() {
+    return (
+        <Fragment>
+            <h1> Welcome to our store</h1>
+            <Items />
+        </Fragment>
+    )
+}
 
+function Items() {
+    return (
+        <Fragment>
+            <div>
+                <h3>Second component</h3>
+                <img src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/92/149869/1.jpg?7158" alt="" style={{ width: '100px', height: '100px' }} />
+                <br />
+                <p>Adidas SPORTS PERFORMANCE RUNFALCON</p>
+                <p>$199</p>
+                <button>Add to cart</button>
+            </div>
+            <div>
+                <h3>Second component</h3>
+                <img src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/92/149869/1.jpg?7158" alt="" style={{ width: '100px', height: '100px' }} />
+                <br />
+                <p>Adidas SPORTS PERFORMANCE RUNFALCON</p>
+                <p>$199</p>
+                <button>Add to cart</button>
+            </div>
+            <div>
+                <h3>Second component</h3>
+                <img src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/92/149869/1.jpg?7158" alt="" style={{ width: '100px', height: '100px' }} />
+                <br />
+                <p>Adidas SPORTS PERFORMANCE RUNFALCON</p>
+                <p>$199</p>
+                <button>Add to cart</button>
+            </div>
+            <div>
+                <h3>Second component</h3>
+                <img src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/92/149869/1.jpg?7158" alt="" style={{ width: '100px', height: '100px' }} />
+                <br />
+                <p>Adidas SPORTS PERFORMANCE RUNFALCON</p>
+                <p>$199</p>
+                <button>Add to cart</button>
+            </div>
+            <div>
+                <h3>Second component</h3>
+                <img src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/92/149869/1.jpg?7158" alt="" style={{ width: '100px', height: '100px' }} />
+                <br />
+                <p>Adidas SPORTS PERFORMANCE RUNFALCON</p>
+                <p>$199</p>
+                <button>Add to cart</button>
+            </div>
+            <div>
+                <h3>Second component</h3>
+                <img src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/92/149869/1.jpg?7158" alt="" style={{ width: '100px', height: '100px' }} />
+                <br />
+                <p>Adidas SPORTS PERFORMANCE RUNFALCON</p>
+                <p>$199</p>
+                <button>Add to cart</button>
+            </div>
+        </Fragment>
+    )
+}
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+root.render(<App />);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// ReactDOM.render(<App />, root);
+
